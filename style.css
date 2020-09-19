@@ -1,0 +1,291 @@
+/* CSS reset script : http://html5doctor.com */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,  pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+
+    margin:0;
+
+    padding:0;
+
+    border:0;
+
+    outline:0;
+
+    font-size:100%;
+
+    vertical-align:baseline;
+
+    background:transparent;
+
+}
+
+body {
+
+    line-height:1;
+
+}
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{ 
+
+    display:block;
+
+}
+
+nav ul {
+
+   list-style:none;
+
+}
+
+blockquote, q {
+
+   quotes:none;
+
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+
+   content:'';
+
+   content:none;
+
+}
+
+a {
+
+   margin:0;
+
+   padding:0;
+
+   font-size:100%;
+
+   vertical-align:baseline;
+
+   background:transparent;
+
+}
+
+/* change colors to suit your needs */
+
+ins {
+
+   background-color:#ff9;
+
+   color:#000;
+
+   text-decoration:none;
+
+}
+
+/* change colors to suit your needs */
+
+mark {
+
+   background-color:#ff9;
+
+   color:#000; 
+
+   font-style:italic;
+
+   font-weight:bold;
+
+}
+
+del {
+
+   text-decoration: line-through;
+
+}
+
+abbr[title], dfn[title] {
+
+   border-bottom:1px dotted;
+
+   cursor:help;
+
+}
+
+table {
+
+   border-collapse:collapse;
+
+   border-spacing:0;
+
+}
+
+/* change border color to suit your needs */
+
+hr {
+
+   display:block;
+
+   height:1px;
+
+   border:0;   
+
+   border-top:1px solid #cccccc;
+
+   margin:1em 0;
+
+   padding:0;
+
+}
+
+input, select {
+
+   vertical-align:middle;
+
+}
+
+/* CSS reset script END */
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7fbff;
+    border-top: dodgerblue solid 1px;
+    border-bottom: dodgerblue solid 1px;
+}
+
+#logo-name {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-img {
+   width: 5rem;
+   height: auto;
+}
+
+#company-name {
+   font-size: 2rem;
+}
+
+a {
+   text-decoration: none;
+   color: dodgerblue;
+   font-size: 1.1rem;
+}
+
+a:hover {
+   color: black;
+}
+
+main {
+    max-width: 900px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(30, 144, 255, 0.035);
+}
+
+h1 {
+   font-size: 2rem;
+   padding-top: 50px;
+   padding-bottom: 15px;
+}
+
+h2 {
+   font-size: 1.5rem;
+   margin-top: 50px;
+   margin-bottom: 25px;
+}
+
+form {
+   padding: 25px;
+}
+
+#submit {
+   font-weight: bold;
+   color: dodgerblue;
+}
+
+#submit:hover {
+   color: black;
+   cursor: pointer;
+}
+
+ul {
+   display: inline-block;
+   text-align: left;
+}
+
+li {
+   margin: 30px;
+}
+
+ul :first-child {
+   margin-top: 0;
+}
+
+.info-pricing {
+   margin: 30px;
+}
+
+strong {
+   font-weight: normal;
+   background-color: rgba(30, 144, 255, 0.35);
+}
+
+footer {
+   display: flex;
+   max-width: 870px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 15px;
+   background-color: rgba(30, 144, 255, 0.035);
+   font-size: 0.85rem;
+   line-height: 1.2rem;
+   flex-wrap: wrap;
+   border-top: dodgerblue solid 1px;
+   border-bottom: dodgerblue solid 1px;
+}
+
+footer a {
+   font-size: 0.85rem;
+   line-height: 1.2rem;
+}
+
+em {
+   font-style: normal;
+   font-weight: bold;
+}
+
+#about {
+   flex-basis: 70%;
+   text-align: justify;
+}
+
+footer div {
+   flex-basis: 30%;
+}
+
+footer div a {
+   display: block;
+   text-align: center;
+   padding: 5px;
+}
+
+#copyright {
+   margin-top: 20px;
+   font-style: italic;
+}
