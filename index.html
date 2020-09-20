@@ -29,8 +29,8 @@
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/pRFXSjkpKWA" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-            <input id="email" type="email" placeholder="exemple@email.com">
+        <form id=form action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input name="email" id="email" type="email" placeholder="exemple@email.com" required>
             <input id="submit" type="submit" value="I need one !">
         </form>
         
@@ -45,21 +45,18 @@
         <p class="info-pricing"><strong>100$</strong> for a new one.</p>
         <p class="info-pricing"><strong>50$</strong> for a second-hand.</p>
         <p class="info-pricing"><strong>65$</strong> for a half-brain.</p>
-
-        <form id=form action="https://www.freecodecamp.com/email-submit" method="POST">
-            <input id="email" type="email" placeholder="exemple@email.com">
-            <input id="submit" type="submit" value="I need one !">
-        </form>
     </main>
+
     <footer>
         <p id="about"><em>- About -</em> CoolBrain is a new company specialized in the design of rescue brains. 
             Its main targets are politicians, reality-show celebrities and social medias self-proclaimed experts.</p>
-        <div>
+        <div id="footer-links">
             <a href="#">Privacy</a>
             <a href="#">Terme</a>
             <a href="#">Contact</a>
         </div>
         <p id="copyright">Copyright 2020 - CoolBrain</p>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
